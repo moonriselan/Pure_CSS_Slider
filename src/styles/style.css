@@ -62,16 +62,13 @@
 }
 
 .slider {
-    background-color: chartreuse;
-    position: relative;
-}
-
-.slider .slider__slides {
     position: relative;
     min-height: 300px;
     overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
 }
-
 .slider .slider__slide {
     display: inline-block;
     width: 100%;
@@ -84,14 +81,14 @@
 }
 
 .slider .slider__slide:first-child {
-    background-image: url("../images/slide1.jpg");
+    background-image: url("https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/stock%2FGettyImages-1312066960-cropped");
     background-color: aqua;
     animation: slide-1-animation 10s infinite;
     animation-direction: alternate;
 }
 
 .slider .slider__slide:nth-child(2) {
-    background-image: url("../images/slide2.jpg");
+    background-image: url("https://www.washingtonian.com/wp-content/uploads/2021/07/Liberty-Mills-3-1.jpg");
     background-color: silver;
     left: 100%;
     animation: slide-2-animation 10s infinite;
@@ -99,7 +96,7 @@
 }
 
 .slider .slider__slide:last-child {
-    background-image: url("../images/slide3.jpg");
+    background-image: url("https://www.gannett-cdn.com/presto/2019/08/12/PBUR/3f98c163-ce42-4fef-80dd-5d0496552844-DSC00543.jpg?crop=5999,3375,x0,y0&width=2560");
     background-color: blueviolet;
     left: 200%;
     animation: slide-3-animation 10s infinite;
@@ -133,15 +130,12 @@
     position: absolute;
     right: 10px;
     top: calc(50% - 9px);
-    background-image: url('../images/read_more.svg');
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEyOCAxMjg7IiBmaWxsPSJ3aGl0ZSIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGc+PHBvbHlnb24gcG9pbnRzPSIxMiwxMTcgMTE2LDExNyAxMTYsODIgMTA4LDgyIDEwOCwxMDkgMjAsMTA5IDIwLDIxIDYwLDIxIDYwLDEzIDEyLDEzICAiLz48cGF0aCBkPSJNNjAsNjJ2MTBoOFY2MmMwLTguOCw3LjItMTYsMTYtMTZoMjQuM0w5NS4yLDU5LjJsNS43LDUuN0wxMjMuNyw0MmwtMjIuOC0yMi44bC01LjcsNS43TDEwOC4zLDM4SDg0ICAgQzcwLjgsMzgsNjAsNDguOCw2MCw2MnoiLz48L2c+PC9zdmc+');
     background-repeat: no-repeat;
     height: 50px;
     width: 50px;
     text-indent: -9999px;
     white-space: nowrap;
-}
-
-.slider .slider__nav {
 }
 
 .nav {
@@ -156,8 +150,8 @@
     opacity: 1;
 }
 .nav .nav__btn {
-   background-color: rgba(0, 0, 0, .4);
-    background-image: url("../images/arrow.svg");
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDk2IDk2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IndoaXRlIj48dGl0bGUvPjxwYXRoIGQ9Ik02OS44NDM3LDQzLjM4NzYsMzMuODQyMiwxMy4zODYzYTYuMDAzNSw2LjAwMzUsMCwwLDAtNy42ODc4LDkuMjIzbDMwLjQ3LDI1LjM5LTMwLjQ3LDI1LjM5YTYuMDAzNSw2LjAwMzUsMCwwLDAsNy42ODc4LDkuMjIzMUw2OS44NDM3LDUyLjYxMDZhNi4wMDkxLDYuMDA5MSwwLDAsMCwwLTkuMjIzWiIvPjwvc3ZnPg==");
     background-repeat: no-repeat;
     border: 0;
     text-indent: -9999px;
@@ -175,4 +169,3 @@
     position: absolute;
     right: 0;
 }
-
